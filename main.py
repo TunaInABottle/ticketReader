@@ -1,7 +1,7 @@
 from ticket_to_text import ticket_to_text
 
 
-img_path = "./02processedInput/test1.jpg"
+img_path = "./processedInput/test1.jpg"
 
 
 
