@@ -14,6 +14,9 @@ debug_log = logging.getLogger("debugLogger")
 
 ###########################################
 
+places_data_path = "data/place_list.csv"
+
+##############################
 
 
 def process_ticket_text(ticket_string: str) -> pd.DataFrame: 
@@ -125,7 +128,7 @@ def extract_ticket_place(ticket_str: str) -> str:
     # remove 'n' if present
     street = re.sub(  r" n[.,;:]?", '', filtered_text_list[0])
 
-    places_df = pd.read_csv('data/place_list.csv', encoding='utf-8')
+    places_df = pd.read_csv(places_data_path, encoding='utf-8')
 
     place_id = place_id_from_street(street, places_df)
 
@@ -140,6 +143,20 @@ def place_id_from_street(street: str, places_df: pd.DataFrame) -> str:
         searched_place_id = places_df.loc[places_df["street"] == street, "id"].values[0]
     except:
         logger.info("The place does not exist in the dataset, it will now be created")
-        searched_place_id = "pl999"
+        # ASSUMPTION: last row has the biggest ID
+        last_id = places_df.tail(1)["id"].values[0]
+        generate_new_place(last_id, street)
+        searched_place_id = place_id_from_street(street, pd.read_csv(places_data_path, encoding='utf-8')) # recursive call with new dataset
     return searched_place_id
 
+
+# MODIFY the csv file containing the places
+def generate_new_place(last_id: str, street: str) -> None:
+    last_id_count = int(re.sub(  r"pl", '', last_id))
+    new_id = "pl" + str(last_id_count+1).rjust(3, "0")
+    
+    new_entry = pd.DataFrame([[new_id, street]],
+                   columns=['id', 'street'])
+    places_df = pd.read_csv(places_data_path, encoding='utf-8')
+    places_df = pd.concat([places_df, new_entry], ignore_index=True)
+    places_df.to_csv(places_data_path, index = False)
