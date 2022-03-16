@@ -6,3 +6,4 @@ rawInput/
 procesedInput/
 textFromImage/
 data/
+__pycache__/
