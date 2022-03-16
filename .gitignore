@@ -1,0 +1,8 @@
+reference_materials.txt
+
+# Not these folders
+tmp/
+rawInput/
+procesedInput/
+textFromImage/
+data/
