@@ -160,3 +160,8 @@ def generate_new_place(last_id: str, street: str) -> None:
     places_df = pd.read_csv(places_data_path, encoding='utf-8')
     places_df = pd.concat([places_df, new_entry], ignore_index=True)
     places_df.to_csv(places_data_path, index = False)
+
+
+#
+def new_ticket_id(ticket_df: pd.DataFrame) -> str:
+    return "t0001"

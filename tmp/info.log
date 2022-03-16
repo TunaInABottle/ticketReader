@@ -149,3 +149,51 @@ Index: []
 2022-03-16 19:04:23,704 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
 2022-03-16 19:09:37,225 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
 2022-03-16 19:09:53,938 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:13:32,747 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:13:48,513 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:13:48,518 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:14:12,423 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:14:12,427 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:14:27,280 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:14:27,284 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:15:10,617 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:15:10,621 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:15:24,413 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:15:24,417 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:15:56,324 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:15:56,328 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:16:21,487 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:16:21,491 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:27:08,887 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:27:08,891 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:32:35,454 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:32:35,458 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:32:52,152 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:32:52,156 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:33:50,597 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:34:05,557 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:34:05,561 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:34:14,828 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:34:14,832 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:34:30,673 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:34:47,079 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:34:47,083 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:34:51,237 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:35:30,354 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:35:30,358 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 21:30:05,340 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:34:35,187 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:36:45,818 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:42:09,878 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:42:58,322 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:43:19,091 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:44:38,373 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:45:40,693 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:46:01,528 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:46:10,921 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:46:38,316 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:47:42,836 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:47:56,030 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:49:32,854 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:50:48,516 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 21:54:32,357 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
