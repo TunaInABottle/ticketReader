@@ -1,0 +1,151 @@
+2022-03-15 11:29:25,614 - sampleLogger - DEBUG - entry Sconto UNISPESA created
+2022-03-15 11:29:25,614 - sampleLogger - DEBUG - entry SACCHETTO BIO  created
+2022-03-15 11:29:25,614 - sampleLogger - DEBUG - entry FARINA CECI V/V BIO  created
+2022-03-15 11:29:25,614 - sampleLogger - DEBUG - entry 0SSOBUCO DI TACCHINO  created
+2022-03-15 11:29:25,614 - sampleLogger - DEBUG - entry Sconto % Bollone created
+2022-03-15 11:29:25,614 - sampleLogger - DEBUG - entry TOTALE COMPLESSIVO created
+2022-03-15 11:29:25,614 - sampleLogger - DEBUG - entry di cui IVA created
+2022-03-15 11:29:37,770 - sampleLogger - DEBUG - entry ORATA NAZIONALE  created
+2022-03-15 11:29:37,770 - sampleLogger - DEBUG - entry UOVA GRANDI PRIMIA  created
+2022-03-15 11:29:37,770 - sampleLogger - DEBUG - entry Sconto Articolo created
+2022-03-15 11:29:37,770 - sampleLogger - DEBUG - entry RISO PRIMIA ARBORIO  created
+2022-03-15 11:29:37,771 - sampleLogger - DEBUG - entry Sconto Articolo created
+2022-03-15 11:29:37,771 - sampleLogger - DEBUG - entry CIPOLLE GIALLE  created
+2022-03-15 11:29:37,771 - sampleLogger - DEBUG - entry Sconto UNISPESA created
+2022-03-15 11:29:37,771 - sampleLogger - DEBUG - entry SACCHETTO BIO  created
+2022-03-15 11:29:37,771 - sampleLogger - DEBUG - entry SOLE DET.LIO COL  created
+2022-03-15 11:29:37,771 - sampleLogger - DEBUG - entry MINESTRONE LEGUMI  created
+2022-03-15 11:29:37,771 - sampleLogger - DEBUG - entry Sconto Buoni created
+2022-03-15 11:29:37,771 - sampleLogger - DEBUG - entry TE' TWININGS  created
+2022-03-15 11:29:37,771 - sampleLogger - DEBUG - entry Sconto DupliCard created
+2022-03-15 11:29:37,771 - sampleLogger - DEBUG - entry TE TWININGS  created
+2022-03-15 11:29:37,771 - sampleLogger - DEBUG - entry Sconto Dupi iCard created
+2022-03-15 11:29:37,772 - sampleLogger - DEBUG - entry CAROTE SFUSE  created
+2022-03-15 11:29:37,772 - sampleLogger - DEBUG - entry Sconto UNISPESA created
+2022-03-15 11:29:37,772 - sampleLogger - DEBUG - entry SACCHETTO BIO  created
+2022-03-15 11:29:37,772 - sampleLogger - DEBUG - entry FARINA POLENTA TARAG  created
+2022-03-15 11:29:37,772 - sampleLogger - DEBUG - entry Sconto Buoni created
+2022-03-15 11:29:37,772 - sampleLogger - DEBUG - entry PATATE DOLCI  created
+2022-03-15 11:29:37,772 - sampleLogger - DEBUG - entry Sconto Buoni created
+2022-03-15 11:29:37,772 - sampleLogger - DEBUG - entry Sconto UNISPESA created
+2022-03-15 11:29:37,772 - sampleLogger - DEBUG - entry MOZZ.PUGLIESE ABB  created
+2022-03-15 11:29:37,772 - sampleLogger - DEBUG - entry Sconto % Bollone created
+2022-03-15 11:29:37,772 - sampleLogger - DEBUG - entry Sconto UNISPESA created
+2022-03-15 11:29:37,772 - sampleLogger - DEBUG - entry SALSICCIA SENSATIONA  created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry Scento % Bollone created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry SALVAMINUTI PEDON  created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry YOG.BIANCO MILA  created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry SEDANO VERDE  created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry Sconto UNISPESA created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry FAG.CANNELL.PRIMIA  created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry Sconto Articolo created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry LENTICCHIE PRIMIA  created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry Sconto Articolo created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry PAN DI ZUCCHERO  created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry Sconto UNISPESA created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry ZUPPA LEGUMI PRIMIA  created
+2022-03-15 11:29:37,773 - sampleLogger - DEBUG - entry Sconto Articolo created
+2022-03-15 11:29:37,774 - sampleLogger - DEBUG - entry FUNGHI CHAMPIGNON  created
+2022-03-15 11:29:37,774 - sampleLogger - DEBUG - entry Sconto UNISPESA created
+2022-03-15 11:29:37,774 - sampleLogger - DEBUG - entry PREZZEMOLO  created
+2022-03-15 11:29:37,774 - sampleLogger - DEBUG - entry Sconto UNISPESA created
+2022-03-15 11:29:37,774 - sampleLogger - DEBUG - entry BANANE  created
+2022-03-15 11:29:37,774 - sampleLogger - DEBUG - entry Sconto UNISPESA created
+2022-03-15 11:29:37,774 - sampleLogger - DEBUG - entry SACCHETTO BIO  created
+2022-03-15 11:29:37,774 - sampleLogger - DEBUG - entry MELE FUJI  created
+2022-03-15 11:29:37,774 - sampleLogger - DEBUG - entry Sconto UNISPESA created
+2022-03-15 11:29:37,774 - sampleLogger - DEBUG - entry SACCHETTO BIO  created
+2022-03-15 11:29:37,774 - sampleLogger - DEBUG - entry FARINA CECI V/V BIO  created
+2022-03-15 11:29:37,775 - sampleLogger - DEBUG - entry 0SSOBUCO DI TACCHINO  created
+2022-03-15 11:29:37,775 - sampleLogger - DEBUG - entry Sconto % Bollone created
+2022-03-15 11:29:37,775 - sampleLogger - DEBUG - entry TOTALE COMPLESSIVO created
+2022-03-15 11:29:37,775 - sampleLogger - DEBUG - entry di cui IVA created
+2022-03-15 22:13:52,228 - sampleLogger - INFO - The scanned ticket has an error of -0.6
+2022-03-15 22:20:15,860 - sampleLogger - INFO - The scanned ticket has an error of -0.6
+2022-03-15 22:20:41,259 - sampleLogger - INFO - The scanned ticket has an error of -0.6
+2022-03-15 22:21:51,664 - sampleLogger - INFO - The scanned ticket has an error of -0.6
+2022-03-15 22:22:21,820 - sampleLogger - INFO - The scanned ticket has an error of -0.6
+2022-03-15 22:22:49,349 - sampleLogger - INFO - The scanned ticket has an error of -0.6
+2022-03-16 09:56:25,011 - sampleLogger - INFO - The scanned ticket has an error of -0.6
+2022-03-16 10:19:03,712 - sampleLogger - INFO - The scanned ticket has an error of -0.6
+2022-03-16 10:20:09,474 - sampleLogger - INFO - The scanned ticket has an error of -0.6
+2022-03-16 16:45:44,791 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 16:46:35,362 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 16:46:44,915 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 16:47:12,295 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 16:47:57,931 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 16:49:11,316 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 16:51:23,344 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:01:09,015 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:01:59,511 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:06:52,620 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:07:24,124 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:08:22,197 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:13:33,914 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:14:41,419 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:15:07,436 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:15:27,719 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:17:39,267 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:29:42,173 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:30:07,288 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:31:36,119 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:31:54,651 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:32:33,911 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:33:25,134 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:34:02,096 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:34:42,797 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:35:18,434 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:42:15,995 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:42:28,945 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:44:30,000 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:44:30,047 - sampleLogger - INFO -   place_id place_name    place_street  place_city  postal_code
+0    pl001       Poli  Via Maccani 56         NaN          NaN
+2022-03-16 17:44:52,673 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:44:52,679 - sampleLogger - INFO - 0    pl001
+Name: place_id, dtype: object
+2022-03-16 17:45:31,548 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:45:31,552 - sampleLogger - INFO - 0    True
+Name: place_id, dtype: bool
+2022-03-16 17:46:17,078 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 17:46:17,082 - sampleLogger - INFO - 0    False
+1     True
+Name: place_id, dtype: bool
+2022-03-16 18:30:14,498 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:30:14,502 - sampleLogger - INFO -   place_id place_name    place_street  place_city  postal_code
+1    pl001       Poli  Via Maccani 56         NaN          NaN
+2022-03-16 18:30:46,897 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:30:46,901 - sampleLogger - INFO - Empty DataFrame
+Columns: [place_id, place_name, place_street, place_city, postal_code]
+Index: []
+2022-03-16 18:31:05,943 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:31:05,947 - sampleLogger - INFO -   place_id place_name    place_street  place_city  postal_code
+1    pl001       Poli  Via Maccani 56         NaN          NaN
+2022-03-16 18:35:52,704 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:36:04,239 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:38:00,001 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:38:59,700 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:46:10,021 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:46:50,570 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:48:14,524 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:48:49,203 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:49:52,770 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:50:02,036 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:51:07,373 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:52:06,536 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:52:23,090 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:53:18,887 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:54:55,266 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:55:25,844 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:55:35,797 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:55:54,018 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:56:24,449 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:56:37,939 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 18:58:26,166 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:00:47,616 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:00:55,338 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:01:52,175 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:03:47,173 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:03:47,177 - sampleLogger - INFO - The place does not exist in the dataset, it will now be created
+2022-03-16 19:04:23,704 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:09:37,225 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
+2022-03-16 19:09:53,938 - sampleLogger - INFO - The scanned ticket has an error of -0.6. an entry will be added to report this
