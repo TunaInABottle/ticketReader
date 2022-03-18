@@ -10,7 +10,7 @@ with open('config.yaml', 'r') as f:
     logging.config.dictConfig(config)
 
 logger = logging.getLogger("sampleLogger")
-debug_log = logging.getLogger("debugLogger")
+work_log = logging.getLogger("debugLogger")
 
 ###########################################
 
@@ -162,6 +162,11 @@ def generate_new_place(last_id: str, street: str) -> None:
     places_df.to_csv(places_data_path, index = False)
 
 
-#
-def new_ticket_id(ticket_df: pd.DataFrame) -> str:
-    return "t0001"
+# create a new ID as the maximum +1
+def new_ticket_id(df: pd.DataFrame) -> str:
+    id_list = df["id"].unique()
+    max_id = int(re.sub(  r"t", '', max(id_list)))
+
+
+    new_id = "t" + str(max_id+1).rjust(4, "0")
+    return new_id
