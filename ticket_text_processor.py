@@ -31,7 +31,7 @@ def process_ticket_text(ticket_string: str) -> pd.DataFrame:
     pd_ticket = pd.DataFrame(ticket_entries)
 
     # Checking skewness of the numbers, eventually adding a skew entry to the data
-    price_skew = price_skewness(pd_ticket)
+    price_skew = calculate_skewness(pd_ticket)
     if price_skew != 0:
         logger.info("The scanned ticket has an error of %s. an entry will be added to report this", price_skew)
         skew_entry = pd.DataFrame([['PRICE SKEWNESS', price_skew]],
@@ -56,7 +56,7 @@ def extract_ticket_entries(ticket_string):
 
 
 
-def price_skewness(pd_ticket: pd.DataFrame) -> int:
+def calculate_skewness(pd_ticket: pd.DataFrame) -> int:
     return round(pd_ticket["price"].sum() - 2 * pd_ticket["price"].max(), 2)
 
 
@@ -72,7 +72,7 @@ def format_ticket_entry(entry_string: str) -> dict:
     return entry_dict
 
 def ticket_entry_tidying(entry_string: str) -> str:
-    # remove IVA columns
+    # remove IVA columns if present
     iva_regex = re.compile(r"\S?[Vv][Ii]")
     clean_entry = re.sub( iva_regex , '', entry_string)
     return clean_entry

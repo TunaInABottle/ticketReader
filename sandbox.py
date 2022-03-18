@@ -1,13 +1,11 @@
-import logging
-import logging.config
-import yaml
+from Ticket import Ticket
 
-with open('config.yaml', 'r') as f:
-    config = yaml.safe_load(f.read())
-    logging.config.dictConfig(config)
+img_name = "20220118_poli.jpg"
+
+with open('./textFromImage/' + img_name  + '.txt', 'r') as file:
+    file_content = file.read()
+    ticket = Ticket( file_content )
 
 
-
-logger = logging.getLogger("sampleLogger")
-
-logger.debug('This is a debug message')
+#ticket.print_content()
+ticket.print()
