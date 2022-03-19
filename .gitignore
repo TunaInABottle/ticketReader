@@ -2,8 +2,8 @@ reference_materials.txt
 
 # Not these folders
 tmp/
-rawInput/
-procesedInput/
-textFromImage/
-data/
+unprocessedInput/
+processedInput/
+ticketTexts/
+data/*
 __pycache__/

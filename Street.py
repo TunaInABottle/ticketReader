@@ -1,22 +1,23 @@
-
 import re
-import logging
-import logging.config
-import yaml
 import pandas as pd
 import id_generator
+
+#############
+
+import logging, logging.config, yaml
 
 with open('config.yaml', 'r') as f:
     config = yaml.safe_load(f.read())
     logging.config.dictConfig(config)
 
 logger = logging.getLogger("sampleLogger")
+work_log = logging.getLogger("debugLogger")
 
-
+#############
 
 class Street:
     def __init__(self, list_str: list):
-        self.data_path = "data/place_list.csv"
+        self.data_path = "data/places.csv"
         self.name = self.__extract_address(list_str)
         self.id = self.__lookup_id(self.name)
 

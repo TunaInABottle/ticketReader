@@ -17,8 +17,11 @@ logger = logging.getLogger("debugLogger")
 
 tickets_data_path = "data/tickets.csv"
 img_name = "20220118_poli.jpg"
+#img_name = "20220102.jpg"
 
 #######################
+
+#@TODO problem of inialization when folders/files are empty (especially data)
 
 
 def main():
@@ -26,7 +29,7 @@ def main():
     #img_to_text("./processedInput/", img_name)
 
     try:
-        with open('./textFromImage/' + img_name  + '.txt', 'r') as file:
+        with open('./ticketTexts/' + img_name  + '.txt', 'r') as file:
             new_ticket = Ticket( file.read() )
 
         tickets_data = pd.read_csv(tickets_data_path)

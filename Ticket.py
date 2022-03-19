@@ -75,7 +75,7 @@ class Ticket:
 
     # ASSUMPTION: The tickets are unique based on place, date and maximum price
     def is_in(self, df: pd.DataFrame) -> bool:
-        return not df[(df["place"] == self.street.id) & (df["price"] == self.entry_list.max) & (df["date"] == self.date)].empty
+        return not df[(df["place"] == self.street.id) & (df["price"] == str(self.entry_list.max)) & (df["date"] == self.date)].empty
 
     def __str__(self) -> str:
-        return f"id: {self.id}\nDate: {self.date}\nStreet: {self.street}\n{self.entry_list}"
+        return f"id: {self.id}\nDate: {self.date}\nStreet: {self.street}\nMax: {self.entry_list.max}\n{self.entry_list}"

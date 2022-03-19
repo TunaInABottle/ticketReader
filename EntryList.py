@@ -25,13 +25,26 @@ class EntryList:
 
         self.max = max([item.price for item in self.entries_list])
 
+        self.__add_skewness()
+
     def __add_entry(self, entry_string: str) -> None:
         entry = Entry.Entry(entry_string)
         if not entry.IVA_entry():
             self.entries_list.append( entry )
 
     def get_entries_dict(self) -> dict:
-        return {"name": [item.product for item in self.entries_list], "price": [item.price for item in self.entries_list]}
+        return {
+            "name": [item.product for item in self.entries_list],
+            "price": [item.price for item in self.entries_list]
+            }
+
+    def __add_skewness(self) -> None:
+        # As the content of the ticket comes from OCR, there might be some errors
+        # in the reading, this function puts this error into data
+        skewness = sum([item.price for item in self.entries_list]) - 2 * self.max
+        if not skewness == 0:
+            logger.info("the following ticket has some problems with the read numbers, adding skewness entry")
+            self.entries_list.append( Entry.Entry(f"PRICE SKEWNESS {round(skewness, 2)}") )
 
 
     def __str__(self) -> str:
