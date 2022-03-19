@@ -28,13 +28,13 @@ handlers:
 
 
 loggers:
-  sampleLogger:
-    level: DEBUG
-    handlers: [info_handler, console]
-    propagate: no
   debugLogger:
     level: DEBUG
     handlers: [console]
+    propagate: no
+  ticketLogger:
+    lefet: DEBUG
+    handlers: [info_handler, console]
     propagate: no
 root:
   level: DEBUG

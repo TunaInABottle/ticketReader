@@ -6,6 +6,4 @@ with open('./textFromImage/' + img_name  + '.txt', 'r') as file:
     file_content = file.read()
     ticket = Ticket( file_content )
 
-
-#ticket.print_content()
-ticket.print()
+print(ticket)
