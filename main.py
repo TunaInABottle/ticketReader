@@ -37,7 +37,7 @@ def main():
 
 
     # Make OCR on the shopping ticket
-    img_to_text("./processedInput/", img_name)
+    #img_to_text("./processedInput/", img_name)
 
     try:
         with open('./ticketTexts/' + img_name  + '.txt', 'r') as file:
