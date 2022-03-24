@@ -29,7 +29,7 @@ class EntryList:
 
     def __add_entry(self, entry_string: str) -> None:
         entry = Entry.Entry(entry_string)
-        if not entry.IVA_entry():
+        if entry.is_relevant():
             self.entries_list.append( entry )
 
     def get_entries_dict(self) -> dict:

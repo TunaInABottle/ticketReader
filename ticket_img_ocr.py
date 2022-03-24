@@ -2,6 +2,7 @@ from PIL import Image
 import pytesseract
 import cv2
 
+textPath = './ticketTexts/'
 
 def img_to_text(folder_path, img_name):
 
@@ -29,5 +30,5 @@ def img_to_text(folder_path, img_name):
 
 
 
-    with open('./textFromImage/' + img_name + '.txt', 'w') as file:
+    with open(textPath + img_name + '.txt', 'w') as file:
         df = file.write(tesseract_out)

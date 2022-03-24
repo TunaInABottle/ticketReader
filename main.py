@@ -1,6 +1,8 @@
 from ticket_img_ocr import img_to_text
 import pandas as pd
 from Ticket import Ticket
+import sys
+import getopt
 
 #############
 
@@ -16,8 +18,7 @@ logger = logging.getLogger("debugLogger")
 #############
 
 tickets_data_path = "data/tickets.csv"
-img_name = "20220118_poli.jpg"
-#img_name = "20220102.jpg"
+#img_name = "20220118_poli.jpg"
 
 #######################
 
@@ -26,7 +27,17 @@ img_name = "20220118_poli.jpg"
 
 def main():
     
-    #img_to_text("./processedInput/", img_name)
+    if len(sys.argv) > 2:
+        raise Exception("There are too many parameters given to command line!")
+
+    img_name = sys.argv[1]
+
+    #try:
+    #    opts, args = getopt.getotp(argv, "", ["path="])
+
+
+    # Make OCR on the shopping ticket
+    img_to_text("./processedInput/", img_name)
 
     try:
         with open('./ticketTexts/' + img_name  + '.txt', 'r') as file:

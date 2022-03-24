@@ -1,5 +1,6 @@
 import unittest
 import id_generator
+import Entry
 
 class TestStringMethods(unittest.TestCase):
 
@@ -13,5 +14,13 @@ class TestStringMethods(unittest.TestCase):
         with self.assertRaises(ValueError):
             id_generator.next_id("0parar0301")
 
+    def test_entry_extract_price(self):
+        self.assertEqual(Entry.Entry('ACETO B. DI ALCOOL xVI 0,69').price, 0.69)
+        self.assertEqual(Entry.Entry('CAROTE VASSOIO *VI 0.99').price, 0.99)
+        self.assertEqual(Entry.Entry('Scanto % Bollone -2,50').price, -2.50)
+        self.assertEqual(Entry.Entry('CECI V/VERDE BIO xVI 099').price, 0.99)
+        self.assertEqual(Entry.Entry('Sconto Articolo 0 99').price, 0.99)
+
 if __name__ == '__main__':
     unittest.main()
+
