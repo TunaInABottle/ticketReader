@@ -26,7 +26,7 @@ class Entry:
 
         # insert dot if the string has no character in between
         if price[-3] != ".":
-            price = price[:-3] + "." + price[-3:]
+            price = price[:-2] + "." + price[-2:]
 
         return float( price )
 
@@ -42,4 +42,4 @@ class Entry:
     def is_relevant(self) -> bool:
         if self.product == "":
             return False
-        return not re.search('cui IVA|pagamento contante', self.product, re.IGNORECASE)
+        return not re.search('cui IVA|pagamento contante|Resto|Documento n| pagato|PARTITA IVA', self.product, re.IGNORECASE)

@@ -1,3 +1,4 @@
+import sys
 from PIL import Image
 import pytesseract
 import cv2
@@ -32,3 +33,15 @@ def img_to_text(folder_path, img_name):
 
     with open(textPath + img_name + '.txt', 'w') as file:
         df = file.write(tesseract_out)
+
+
+
+
+    # TODO get from command line the image name
+    def main():
+        img_to_text("./processedInput/", sys.argv[1])
+
+
+
+    if __name__ == "__main__":
+        main()

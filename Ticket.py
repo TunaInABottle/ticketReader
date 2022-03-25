@@ -32,7 +32,7 @@ class Ticket:
         text_list = text.splitlines()
 
         # Assumption: a ticket entry ends with a price written as float
-        entry_regex = re.compile(r"[\W\S]?\d+[.,]\d{2}$")
+        entry_regex = re.compile(r"^.+\d[., ]\d{2}$|^.*\d{3,}$")
         # Assumption: dates written in YYYY-MM-DD or DD-MM-YYYY format
         date_regex = re.compile(r"\d{2,4}[-/]\d{1,2}[-/]\d{1,2}|\d{1,2}[-/]\d{1,2}[-/]\d{2,4}")
         street_regex = re.compile(r"Via |Piazza ")

@@ -20,6 +20,9 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(Entry.Entry('Scanto % Bollone -2,50').price, -2.50)
         self.assertEqual(Entry.Entry('CECI V/VERDE BIO xVI 099').price, 0.99)
         self.assertEqual(Entry.Entry('Sconto Articolo 0 99').price, 0.99)
+        self.assertEqual(Entry.Entry('Sconto Articolo -0 24').price, -0.24)
+        print(Entry.Entry('Sconto Articolo -0 24').product)
+
 
 if __name__ == '__main__':
     unittest.main()
