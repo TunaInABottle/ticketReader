@@ -25,7 +25,7 @@ class EntryList:
 
         self.max = max([item.price for item in self.entries_list])
 
-        self.__add_skewness()
+        #self.__add_skewness()
 
     def __add_entry(self, entry_string: str) -> None:
         entry = Entry.Entry(entry_string)

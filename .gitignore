@@ -5,5 +5,6 @@ tmp/
 unprocessedInput/
 processedInput/
 ticketTexts/
+rAnalysis/
 data/*
 __pycache__/

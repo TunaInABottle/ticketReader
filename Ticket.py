@@ -35,12 +35,12 @@ class Ticket:
         entry_regex = re.compile(r"^.+\d[., ]\d{2}$|^.*\d{3,}$")
         # Assumption: dates written in YYYY-MM-DD or DD-MM-YYYY format
         date_regex = re.compile(r"\d{2,4}[-/]\d{1,2}[-/]\d{1,2}|\d{1,2}[-/]\d{1,2}[-/]\d{2,4}")
-        street_regex = re.compile(r"Via |Piazza ")
+        street_regex = re.compile(r"(?i:Via) |(?i:Piazza) ")
 
         text_list = text.splitlines()
 
         self.date = self.extract_date(date_regex, text_list)
-        self.street = Street(list(filter(street_regex.search, text_list)))
+        self.street = Street(list( filter(street_regex.search, text_list))) # TODO IMPROVE CASE INSENSITIVE
         self.entry_list = EntryList(list(filter(entry_regex.search, text_list)))
 
     def extract_date(self, regex: Pattern[str], text_list: List) -> str:
@@ -56,7 +56,7 @@ class Ticket:
 
         raw_date = result[-1]
         date = re.sub( keep_date_only_regex, '', raw_date )
-        return parser.parse(date).strftime('%Y-%m-%d')
+        return parser.parse(date).strftime('%Y-%m-%d') #@TODO make TEST battery according to 20220205_pane
 
     def __calc_id(self) -> str:
         with open(self.data_path, 'r') as f:

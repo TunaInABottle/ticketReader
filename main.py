@@ -24,35 +24,29 @@ tickets_data_path = "data/tickets.csv"
 
 #@TODO problem of inialization when folders/files are empty (especially data)
 
+'''
+Miss list
+0205_pane
+'''
+
 
 def main():
-    
-    if len(sys.argv) > 2:
-        raise Exception("There are too many parameters given to command line!")
-
     img_name = sys.argv[1]
-
-    #try:
-    #    opts, args = getopt.getotp(argv, "", ["path="])
-
-
+    
     # Make OCR on the shopping ticket
     #img_to_text("./processedInput/", img_name)
 
-    try:
-        with open('./ticketTexts/' + img_name  + '.txt', 'r') as file:
-            new_ticket = Ticket( file.read() )
+    with open('./ticketTexts/' + img_name  + '.txt', 'r') as file:
+        new_ticket = Ticket( file.read() )
 
-        tickets_data = pd.read_csv(tickets_data_path)
+    tickets_data = pd.read_csv(tickets_data_path)
 
-        if not new_ticket.is_in(tickets_data):
-            new_tickets_data = pd.concat([tickets_data, new_ticket.dataframe()])    
-            new_tickets_data.to_csv(tickets_data_path, index = False)
-            logger_ticket.info(f"the ticket with name \"{img_name}\" has been appended to the dataset")
-        else:
-            logger_ticket.info(f"the ticket with name \"{img_name}\" has already been scanned in the past")
-    except Exception:
-        raise Exception("Something went wrong!")
+    if not new_ticket.is_in(tickets_data):
+        new_tickets_data = pd.concat([tickets_data, new_ticket.dataframe()])    
+        new_tickets_data.to_csv(tickets_data_path, index = False)
+        logger_ticket.info(f"the ticket with name \"{img_name}\" has been appended to the dataset")
+    else:
+        logger_ticket.info(f"the ticket with name \"{img_name}\" has already been scanned in the past")
 
 
 if __name__ == "__main__":

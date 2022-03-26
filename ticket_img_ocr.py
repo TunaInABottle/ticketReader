@@ -5,11 +5,17 @@ import cv2
 
 textPath = './ticketTexts/'
 
+
+# TODO get from command line the image name
+def main():
+    img_to_text("./processedInput/", sys.argv[1])
+
+
 def img_to_text(folder_path, img_name):
 
     img_path = folder_path + img_name
 
-    img = Image.open( img_path )
+    #img = Image.open( img_path )
 
     pyt_opt = r'--oem 3 --psm 6'
 
@@ -33,15 +39,13 @@ def img_to_text(folder_path, img_name):
 
     with open(textPath + img_name + '.txt', 'w') as file:
         df = file.write(tesseract_out)
+        print(f"ticket text written in {textPath}{img_name}.txt")
 
 
 
 
-    # TODO get from command line the image name
-    def main():
-        img_to_text("./processedInput/", sys.argv[1])
 
 
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()

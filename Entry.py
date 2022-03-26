@@ -2,7 +2,7 @@ import re
 from typing import List
 
 class Entry:
-    __iva_col_regex = re.compile(r"\S?[Vv][Ii]")
+    __iva_col_regex = re.compile(r"\S?[Vv][Ii]|\d+[,.]\d{2}%$")
     __price_regex = re.compile(r"[\S]?[0-9]+[, .]?[0-9]+$") #ASSUMPTION an entry ends with the price
 
     def __init__(self, entry_text: str):
@@ -34,12 +34,12 @@ class Entry:
     def extract_product(self, split_entry: List[str]) -> str:
         # Assumption: product is everything but the last element of an entry
         product = " ".join(split_entry[0:len(split_entry)-1]) 
-        product = re.sub(  r"[ ]+$", '', product) #remove trailing space
         product = re.sub( self.__iva_col_regex , '', product) #remove column related to IVA
+        product = re.sub( r"[ ]+$", '', product) #remove trailing space
         return product
 
 
     def is_relevant(self) -> bool:
         if self.product == "":
             return False
-        return not re.search('cui IVA|pagamento contante|Resto|Documento n| pagato|PARTITA IVA', self.product, re.IGNORECASE)
+        return not re.search('cui IVA|pagamento contante|Resto|Documento n| pagato|PARTITA IVA|PART.IVA|Pagamento elet', self.product, re.IGNORECASE)
