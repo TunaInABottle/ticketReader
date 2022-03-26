@@ -24,11 +24,6 @@ tickets_data_path = "data/tickets.csv"
 
 #@TODO problem of inialization when folders/files are empty (especially data)
 
-'''
-Miss list
-0205_pane
-'''
-
 
 def main():
     img_name = sys.argv[1]

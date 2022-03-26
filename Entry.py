@@ -42,4 +42,4 @@ class Entry:
     def is_relevant(self) -> bool:
         if self.product == "":
             return False
-        return not re.search('cui IVA|pagamento contante|Resto|Documento n| pagato|PARTITA IVA|PART.IVA|Pagamento elet', self.product, re.IGNORECASE)
+        return not re.search('cui IVA|pagamento contante|Resto|Documento n| pagato|PARTITA IVA|PART.IVA|P.I,|Pagamento elet', self.product, re.IGNORECASE)
